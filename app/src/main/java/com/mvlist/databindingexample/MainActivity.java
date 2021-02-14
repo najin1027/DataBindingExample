@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
 
         binding.tvDate.setText("Test Text");
         /*
-        // 데이터 바인딩 사용 안하면 주석 처리 된 방법으로 사용
         viewModel.counter.observe(this, new Observer<Integer>() {
             @Override
             public void onChanged(Integer integer) {
